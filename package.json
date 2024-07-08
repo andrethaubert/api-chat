@@ -1,0 +1,30 @@
+{
+  "name": "chat-api",
+  "version": "1.0.0",
+  "description": "\"chat-api\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/server.js",
+    "test": "echo \"error: no test specified"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreth07/chat-demo.git"
+  },
+  "keywords": [
+    "node",
+    "chat",
+    "api"
+  ],
+  "author": "andre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreth07/chat-demo/issues"
+  },
+  "homepage": "https://github.com/andreth07/chat-demo#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0"
+  }
+}
