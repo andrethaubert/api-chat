@@ -27,7 +27,7 @@ app.use("/entrar", router.post("/entrar", async(req, res, next) => {
 
 app.use("/salas",router.get("/salas", async (req, res,next) => {
     const token = require("..token.js/util/token");
-    const salaController = require("./controllers/salaController");
+    const salaController = require("../controllers/salaController");
     const test = await token.checkToken(req.headers.token,req.headers.iduser,req.headers.nick);
     console.log(test)
     if (test) {
